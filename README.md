@@ -1,3 +1,4 @@
-#write a python code that utilize one of the plotting library (my recommendation is matplotlib) to process #LS-DYNA logs
-#Where you (and whoever would like to use the script) can specify the path to the log file, their x-axis and #y-axis as well as the range of the data you want to plot. The script will then open the log file and read all #the logs. Then, select the data range you need to plot and plot these data.
-#Then, the next step would be a batch processing, which allow you to include the directory of logs, and process multiple log files at the same time.
+HIC calculation
+- Write a program which can read in the time-acceleration data from text file and calculate HIC
+- The program must alow the user to select the time inteval for HIC caculation (3,15,36 ms)
+- The program should be able to plot time-acceleration graph
